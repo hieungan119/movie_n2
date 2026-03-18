@@ -3,7 +3,9 @@
 namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
+
 use Illuminate\Support\Facades\Schema; // 1. Thêm dòng này vào
+
 class AppServiceProvider extends ServiceProvider
 {
     /**
