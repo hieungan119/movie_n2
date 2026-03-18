@@ -7,5 +7,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/TranHienNhien','App\Http\Controllers\NameController@HienThiTen'); 
+Route::get('/TranHienNhien',function (){
+    return 'Trần Hiển Nhiên';
+}); 
 
