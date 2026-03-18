@@ -20,3 +20,4 @@ Route::get('/dangphuongnghi', function () {
 Route::get('nguyenleminhnhu', function () {
     return "Nguyễn Lê Minh Như";
 });
+
