@@ -14,3 +14,7 @@ Route::get('/TranHienNhien',function (){
     return 'Trần Hiển Nhiên';
 }); 
 
+Route::get('/dangphuongnghi', function () {
+    return "Đặng Phương Nghi";
+});
+
