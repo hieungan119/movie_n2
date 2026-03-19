@@ -1,14 +1,12 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\DB;
 
 Route::get('/nguyenthihieungan', function () {
     return'Nguyễn Thị Hiếu Ngân';
 });
 
-Route::get('/', function () {
-    return view('welcome');
-});
 Route::get('/TranHienNhien',function (){
     return 'Trần Hiển Nhiên';
 }); 
@@ -23,3 +21,5 @@ Route::get('nguyenleminhnhu', function () {
 Route::get('/HuynhThiQuynhNhu', function () {
     return 'Huỳnh Thị Quỳnh Như';
 });
+
+Route::get("/topbudget","App\Http\Controllers\BudgetController@topbudget");
