@@ -7,7 +7,7 @@ Route::get('/nguyenthihieungan', function () {
     return'Nguyễn Thị Hiếu Ngân';
 });
 
-Route::get('/TranHienNhien',function (){
+Route::get('/tranhiennhien',function () {
     return 'Trần Hiển Nhiên';
 }); 
 
@@ -15,10 +15,10 @@ Route::get('/dangphuongnghi', function () {
     return "Đặng Phương Nghi";
 });
 
-Route::get('nguyenleminhnhu', function () {
+Route::get('/nguyenleminhnhu', function () {
     return "Nguyễn Lê Minh Như";
 });
-Route::get('/HuynhThiQuynhNhu', function () {
+Route::get('/huynhthiquynhnhu', function () {
     return 'Huỳnh Thị Quỳnh Như';
 });
 
