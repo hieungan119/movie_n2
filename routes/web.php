@@ -1,14 +1,11 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\MovieController;
 Route::get('/nguyenthihieungan', function () {
     return'Nguyễn Thị Hiếu Ngân';
 });
 
-Route::get('/', function () {
-    return view('welcome');
-});
 Route::get('/TranHienNhien',function (){
     return 'Trần Hiển Nhiên';
 }); 
@@ -24,4 +21,4 @@ Route::get('/HuynhThiQuynhNhu', function () {
     return 'Huỳnh Thị Quỳnh Như';
 });        
  
-
+Route::get('/top-movies', [MovieController::class, 'topMovies']);
