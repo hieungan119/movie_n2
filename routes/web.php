@@ -22,4 +22,5 @@ Route::get('nguyenleminhnhu', function () {
 });
 Route::get('/HuynhThiQuynhNhu', function () {
     return 'Huỳnh Thị Quỳnh Như';
-});
+});        
+ 
