@@ -1,4 +1,4 @@
-<h1>Top 10 Movies</h1>
+<h1>Top 10 bộ phim có điểm bình chọn (vote_average) cao nhất</h1>
 @foreach($movies as $index => $movie)
     <p>
         {{ $index + 1 }}. 
