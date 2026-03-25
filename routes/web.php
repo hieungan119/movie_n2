@@ -1,4 +1,5 @@
 <?php
+use App\Http\Controllers\BookController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\MovieController;
 use Illuminate\Support\Facades\DB;
